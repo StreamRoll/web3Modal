@@ -15,7 +15,11 @@ function App() {
             <button onClick={connectWeb3}>Connect Web3</button>
           ) : (
             <div>
-              <p>Account: {account}</p>
+               <p>Account: {" "}
+              {account.slice(0, 4) +
+            "..." +
+            account.slice(38, 42)}
+              </p>
               <button onClick={logout}>Logout</button>
             </div>
           )}
