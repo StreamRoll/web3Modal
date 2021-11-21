@@ -1,5 +1,6 @@
 import { createContext, useCallback, useReducer, useEffect } from "react";
 import Web3Modal from "web3modal";
+import WalletConnectProvider from "@walletconnect/web3-provider";
 import { ethers } from "ethers";
 
 import { Web3Reducer } from "./reducer";
@@ -10,7 +11,15 @@ const initialState = {
   provider: null,
 };
 
-const providerOptions = {};
+const providerOptions = {
+
+  walletconnect: {
+    package: WalletConnectProvider, // required
+    options: {
+      infuraId: "INFURA_ID" // required
+    }
+  }
+};
 
 const web3Modal = new Web3Modal({
   providerOptions: providerOptions,

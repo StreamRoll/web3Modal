@@ -21,14 +21,7 @@ function App() {
           )}
         </div>
         <br/>
-        <a
-          className="App-link"
-          href="https://ethereum.org/en/what-is-ethereum/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Explore Ethereum
-        </a>
+       
       </header>
     </div>
   );

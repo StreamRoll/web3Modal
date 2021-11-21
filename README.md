@@ -1,25 +1,11 @@
-# Bare Minimum Dapp: bm-dapp
+# Easy Web3Modal with React
 
-A bare minimum dapp front-end for your decentralized web3 application. Create a one click dapp, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) template.
+#### Metamask and WalletConnect baked in:
 
-- Simple, easy and fast
-- Ready to use dapp with web3 login feature
-- Includes only the bare minimum dependencies, so your app is not bloated
-- Uses [Web3modal](https://github.com/Web3Modal/web3modal) under the hood, so you can add other providers easily with minimum efforts
-- Reloads automatically on account and network changes
-
-## How to use
-
-Bootstrap your dapp using Create React App by using the bm-dapp template
-
-```
-npx create-react-app my-app --template bm-dapp
-yarn start
-```
-
-The app runs in development mode at [http://localhost:3000](http://localhost:3000). Clicking the `Connect Web3` button will pop up Metamask by default(if web3 is enabled). For adding other providers, check [Web3Modal Provider Options](https://github.com/Web3Modal/web3modal#provider-options) 
-
-
+- `npm install` or `yarn install`
+- `npm start` or `yarn start`
+- That's it!
+- Add more [Providers](https://github.com/web3modal/web3modal#provider-options)
 ### Using with ethers
 
 By default, ethers provider is used by bm-dapp. To use the connected provider, import `Web3Context` from the web3 directory present inside `src` directory.
