@@ -1,6 +1,6 @@
 # Easy Web3Modal with React
 
-#### Metamask and WalletConnect baked in:
+### Metamask and WalletConnect baked in:
 
 - `npm install` or `yarn install`
 - `npm start` or `yarn start`
