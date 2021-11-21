@@ -8,7 +8,7 @@
 - Add more [Providers](https://github.com/web3modal/web3modal#provider-options)
 ### Using with ethers
 
-By default, ethers provider is used by bm-dapp. To use the connected provider, import `Web3Context` from the web3 directory present inside `src` directory.
+By default, ethers provider is by default. To use the connected provider, import `Web3Context` from the web3 directory present inside `src` directory.
 
 ```
 import React, { useContext } from 'react';
