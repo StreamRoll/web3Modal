@@ -33,7 +33,7 @@ Or to initialize a Contract with signer
 const daiWithSigner = new ethers.Contract(daiAddress, daiAbi, provider.getSigner());
 ```
 
-For more details, please refer [`ethers` documentation](https://docs.ethers.io/v5/getting-started/).
+For more details, please refer to `ethers` [documentation](https://docs.ethers.io/v5/getting-started/).
 
 
 ### Using with web3
@@ -46,7 +46,7 @@ import { Web3Context } from './web3';
 const { account, provider } = useContext(Web3Context);
 const web3 = new Web3(provider);
 ```
-For more details, please refer [`web3js` documentation](https://web3js.readthedocs.io/en/v1.3.4/index.html)
+For more details, please refer to `web3js` [documentation](https://web3js.readthedocs.io/en/v1.3.4/index.html)
 
 
 ## Related efforts
